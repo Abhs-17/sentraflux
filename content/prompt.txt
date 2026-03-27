@@ -1,0 +1,17 @@
+- i want you to introduce a content addition framework into the project
+- this repo will be a gold standard documentation of a new devops tool documentation
+- this should be handled in such a way that:
+1. there should be a framework for the content addition
+2. even a non technical person should be able to add content
+3. everything must be modular
+4. in the side bar of the website should be modular
+- create a standard template for the website
+- i will be adding content in the future with the implementation of the project and for now just add placeholders
+- the documentation website must be gold standard
+-do not change the ui and no change should be made on it
+- do not add any emogies any where 
+- do not remove any components from it
+- if adding any new components use the same theme as it 
+- add a placeholder for a blog based on transformers which will be added on later
+-The name of this project is "SentraFlux " and this should not be changed 
+- this is not a gobal tool but it is being developed as a new startup based devops tool 
