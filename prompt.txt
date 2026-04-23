@@ -1,0 +1,9 @@
+execute the following additional changes as per my order: 
+- do not touch or modify the css styling -> i want the same design for all the components to be the same
+- do not modify or make changes to the sidebar styling
+- change the html file in such a way that -> every section in the @index.html page is treated as an individual html page
+- the newly added pages must be linked with the sidebar
+- i don't want you to chnage how the components are designed -> i want you to take the present state of components to be maintained throughout the codebase
+- i will be using the same components multiple times in the future
+- if possible wrap every component present - that is cards, grids, pills, code blocks, tables as a function so that i can easily  reuse the component in the future as the codebase expands
+- ensure that DRY approach is being maintained throughout the codebase

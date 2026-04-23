@@ -13,6 +13,9 @@
 </head>
 <body>
 
+<!-- Skip to content link for accessibility -->
+<a href="#main-content" class="skip-link">Skip to main content</a>
+
 <!-- ── Header ───────────────────────────────── -->
 <header>
   <a href="#overview" class="logo">Sentra<span>flux</span></a>
@@ -41,7 +44,7 @@
   </nav>
 
   <!-- ── Main ────────────────────────────────── -->
-  <main>
+  <main id="main-content">
 
     <!-- Section 1 — Overview -->
     <section class="section" id="overview">
@@ -209,7 +212,7 @@
           <span class="tag">Request metadata capture</span>
           <span class="tag">Telemetry emission</span>
         </div>
-        <p style="font-size:12px;color:var(--muted);margin-top:12px;">
+        <p class="text-muted-small">
           Entry point: <code>cmd/gateway/main.go</code>
         </p>
       </div>

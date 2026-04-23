@@ -373,6 +373,13 @@ pre code {
   margin-bottom: 12px;
 }
 
+/* ── Helper Classes ───────────────────────────── */
+.text-muted-small {
+  font-size: 12px;
+  color: var(--muted);
+  margin-top: 12px;
+}
+
 /* ── Service cards ───────────────────────────── */
 .service-card {
   border: 1px solid var(--border);

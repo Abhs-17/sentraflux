@@ -6,6 +6,19 @@
   const sideNav = document.getElementById('sideNav');
   const headerH = 56;
 
+  // Debounce function for scroll performance
+  function debounce(func, wait) {
+    let timeout;
+    return function executedFunction(...args) {
+      const later = function () {
+        clearTimeout(timeout);
+        func(...args);
+      };
+      clearTimeout(timeout);
+      timeout = setTimeout(later, wait);
+    };
+  }
+
   // Highlight active nav link based on scroll position
   function onScroll() {
     let current = '';
@@ -24,7 +37,8 @@
     });
   }
 
-  window.addEventListener('scroll', onScroll, { passive: true });
+  const debouncedScroll = debounce(onScroll, 50);
+  window.addEventListener('scroll', debouncedScroll, { passive: true });
   onScroll(); // run once on load
 
   // Mobile menu toggle
